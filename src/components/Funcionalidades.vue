@@ -1,6 +1,6 @@
 <template>
 <div class="mainContainer">
-  <h1>Funcionalidades</h1>
+  <h1 class="center">Funcionalidades</h1>
     <div class="customContainer">
     <v-container class="containerCustom">
        <div class="contentContainer">
@@ -45,6 +45,11 @@ export default {
 </script>
 
 <style scoped>
+.center{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
 .paragraphStyle{
   text-align: justify;
 }

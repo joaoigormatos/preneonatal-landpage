@@ -1,6 +1,6 @@
 <template>
   <div class="customContainer">
-    <h1>Planos</h1>
+    <h1 class="center">Planos</h1>
       <v-container class="mainContent">
         <v-card
     class="mx-auto"
@@ -191,6 +191,7 @@ export default {
    font-weight: bold;
    font-size: 1.5rem;
    align-self: center;
+   padding: 0;
  }
  .cardTitlePrice{
    font-size: 2rem;
@@ -241,5 +242,10 @@ export default {
 .spaceText{
   margin-left: 5%;
   font-size: 0.8rem;
+}
+.center{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
 }
  </style>

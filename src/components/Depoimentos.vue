@@ -1,6 +1,6 @@
 <template>
   <div class="customContainer">
-    <h1>Depoimentos</h1>
+    <h1 class="center">Depoimentos</h1>
     <div class="depoimentosContainer">
       <div class="depoimento">
      
@@ -70,6 +70,12 @@ export default {};
   align-self: center;
  
 }
+.socialContainer{
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  align-content: center;
+}
 .depoimentosContainer{
 
   display: flex;
@@ -82,7 +88,7 @@ export default {};
 .textStyle{
   font-size: 0.8rem;
   color: white;
-  text-align: center;
+  text-align: left;
 
 
 }.personName{
@@ -113,7 +119,18 @@ export default {};
     justify-content: center;
 }
 .socialWrapper{
+    
       height: 10%;
     width: 20%;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Rochester';
+}
+.center{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
 }
 </style>

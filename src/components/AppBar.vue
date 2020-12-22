@@ -2,7 +2,7 @@
     <div class="customAppBar">
        <v-img class="customLogo" max-width="10%" src="../assets/logo-project.png"></v-img>
        <button class="loginButton">
-
+        
        <span >Entrar</span>
        <v-icon color="white">mdi-login</v-icon>
        </button>
@@ -20,7 +20,7 @@ export default {
     .customAppBar{
         position: fixed;
         width: 100%;
-        color: red;
+        background-color:  #F8C9D3;
         z-index: 50;
         display: flex;
         flex-direction: row;
@@ -30,8 +30,10 @@ export default {
 
    }
    .loginButton{
+       display: flex;
        color: white;
-       align-self: flex-end;
+        justify-self: flex-end;
+
    }
 
 </style>
