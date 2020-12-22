@@ -65,12 +65,16 @@ export default {
      width: 100vw;
      background-color: black;
      color: white;
+     display: flex;
+     flex-direction: column;
 
  }
  .right{
    margin: 0;
    display: flex;
-   align-self: flex-end;
+   align-self: center;
+   justify-self: center;
+   
  }
 
  .aboutUsItem{
