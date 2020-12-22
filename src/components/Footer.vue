@@ -12,6 +12,8 @@
             <div class="aboutUsItem">
              <img class="imgIcon" src="../assets/location.svg" alt=""> <span class="headerText">Endereço: </span> Maria Luiza Noronha, 220
             </div>
+            
+
       </div>
       <div class="footerContainerAskus">
         <h1 class="">Pergunte</h1>
@@ -31,6 +33,9 @@
       </div>
 
     </v-container>
+  <div class="right">
+                © Preneonatal 2020.  All rights reserved. 
+        </div>
   </div>
 </template>
 
@@ -41,6 +46,9 @@ export default {
 </script>
 
 <style scoped>
+.right{
+  font-size: 0.6rem;
+}
 .headerText{
   font-weight: 550;
 }
@@ -53,11 +61,14 @@ export default {
   justify-content: space-between;
 }
  .customContainer{
-     height: 60vh;
+     height: 48vh;
      width: 100vw;
      background-color: black;
      color: white;
 
+ }
+ .right{
+   margin: 0;
  }
 
  .aboutUsItem{
@@ -86,6 +97,7 @@ input[type= text]{
   font-family: 'Roboto Slab';
   font-size: 0.8rem;
 }
+
 textarea{
     border-color: 4px solid white;
         background-color: #C5C6C7;

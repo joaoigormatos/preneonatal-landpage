@@ -66,11 +66,11 @@
     <div class="header-block"></div>
     <v-container class="mainContentCard" >
         <v-card-title class="cardTitle">Premium</v-card-title>
-    <v-card-title class="cardTitlePrice">Free</v-card-title>
+    <v-card-title class="cardTitlePrice"><span class="subTitle">x12</span> R$ 110,00</v-card-title>
     <v-card-text>
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span class="spaceText">Até 3 pacientes;</span>
+        <span class="spaceText">Numero ilimitado de pacientes;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
@@ -121,11 +121,12 @@
     <v-container class="mainContentCard" >
         <v-card-title class="cardTitle">Medium</v-card-title>
         
-    <v-card-title class="cardTitlePrice">R$ 50,00</v-card-title>
+    <v-card-title class="cardTitlePrice"><span class="subTitle">x12</span> R$ 50,00</v-card-title>
+
     <v-card-text class="mainContentText">
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span class="spaceText">Até 3 pacientes;</span>
+        <span class="spaceText">Até 20 pacientes;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
@@ -179,6 +180,16 @@ export default {
 </script>
 
 <style scoped>
+.subHeader{
+  align-self: center;
+  font-size: 0.6rem;
+  padding: 0;
+  margin: 0;
+}
+ .subTitle{
+   font-size: 0.9rem;
+   margin-right: 5px;
+ }
  .customContainer{
      height: 100vh;
      width: 100vw;
@@ -219,6 +230,7 @@ export default {
 .actionContainer{
   display: flex;
   justify-content: center;
+
 }
 .firstLetter{
   text-transform: uppercase;

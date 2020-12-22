@@ -83,4 +83,7 @@ export default {
  .textContainer{
    width: 50%;
  }
+ h1{
+   font-family: 'Roboto Slab';
+ }
 </style>
