@@ -63,7 +63,7 @@ export default {};
   
 }
 .depoimento{
-  width: 20%;
+  width: 27%;
   display: flex;
   flex-direction: column;
   padding: 1%;
@@ -88,7 +88,7 @@ export default {};
 .textStyle{
   font-size: 0.8rem;
   color: white;
-  text-align: left;
+  text-align: justify;
 
 
 }.personName{

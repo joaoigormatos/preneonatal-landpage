@@ -61,7 +61,7 @@ export default {
   justify-content: space-between;
 }
  .customContainer{
-     height: 48vh;
+     height: 45vh;
      width: 100vw;
      background-color: black;
      color: white;
@@ -69,6 +69,8 @@ export default {
  }
  .right{
    margin: 0;
+   display: flex;
+   align-self: flex-end;
  }
 
  .aboutUsItem{
