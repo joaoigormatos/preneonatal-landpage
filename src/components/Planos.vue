@@ -7,50 +7,50 @@
     max-width="344"
     hover="5dp">
     <div class="header-block"></div>
-    <v-container>
+    <v-container class="mainContentCard">
         <v-card-title class="cardTitle">Base</v-card-title>
     <v-card-title class="cardTitlePrice">Free</v-card-title>
     <v-card-text>
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Até 3 pacientes;</span>
+        <span class="spaceText">Até 3 pacientes;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Tira dúvidas das suas gestantes via aplicativo;</span>
+        <span class="spaceText">Tira dúvidas das suas gestantes via aplicativo;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Adicionar dicas para suas pacientes;</span>
+        <span class="spaceText">Adicionar dicas para suas pacientes;</span>
       </div>
       <div class="cardItem">
         <img alt="unsuccess-item" src="../assets/unsuccess-icon.svg" />
-        <span>App gratuito para suas pacientes se comunicarem com você;</span>
+        <span class="spaceText">App gratuito para suas pacientes se comunicarem com você;</span>
       </div>
       <div class="cardItem">
         <img alt="unsuccess-item" src="../assets/unsuccess-icon.svg" />
-        <span>Marque consultas via app;</span>
+        <span class="spaceText">Marque consultas via app;</span>
       </div>
       <div class="cardItem">
          <img alt="unsuccess-item" src="../assets/unsuccess-icon.svg" />
-        <span>Suporte personalizado;</span>
+        <span class="spaceText">Suporte personalizado;</span>
       </div>
       <div class="cardItem">
         <img alt="unsuccess-item" src="../assets/unsuccess-icon.svg" />
-        <span>Gerenciamento de risco;</span>
+        <span class="spaceText">Gerenciamento de risco;</span>
       </div>
       <div class="cardItem">
          <img alt="unsuccess-item" src="../assets/unsuccess-icon.svg" />
-        <span>Cadastro de artigos para suas pacientes;</span>
+        <span class="spaceText">Cadastro de artigos para suas pacientes;</span>
       </div>
       <div class="cardItem">
          <img alt="unsuccess-item" src="../assets/unsuccess-icon.svg" />
-        <span>Cadastro de exames para suas pacientes;</span>
+        <span class="spaceText">Cadastro de exames para suas pacientes;</span>
       </div>
     </v-card-text>
     <v-card-actions class="actionContainer">
         <v-btn class="btnStyle" color="#F8C9D3">
-          <span class="btnText">A</span>dquira
+         <span class="wholeText"><span class="btnText">A</span>dquira</span>
         </v-btn>
     </v-card-actions>
     </v-container>
@@ -64,50 +64,50 @@
     elevation="8"
     >
     <div class="header-block"></div>
-    <v-container >
+    <v-container class="mainContentCard" >
         <v-card-title class="cardTitle">Premium</v-card-title>
     <v-card-title class="cardTitlePrice">Free</v-card-title>
     <v-card-text>
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Até 3 pacientes;</span>
+        <span class="spaceText">Até 3 pacientes;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Tira dúvidas das suas gestantes via aplicativo;</span>
+        <span class="spaceText">Tira dúvidas das suas gestantes via aplicativo;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Adicionar dicas para suas pacientes;</span>
+        <span class="spaceText">Adicionar dicas para suas pacientes;</span>
       </div>
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>App gratuito para suas pacientes se comunicarem com você;</span>
+        <span class="spaceText">App gratuito para suas pacientes se comunicarem com você;</span>
       </div>
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Marque consultas via app;</span>
+        <span class="spaceText">Marque consultas via app;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Suporte personalizado;</span>
+        <span class="spaceText">Suporte personalizado;</span>
       </div>
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Gerenciamento de risco;</span>
+        <span class="spaceText">Gerenciamento de risco;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Cadastro de artigos para suas pacientes;</span>
+        <span class="spaceText">Cadastro de artigos para suas pacientes;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Cadastro de exames para suas pacientes;</span>
+        <span class="spaceText">Cadastro de exames para suas pacientes;</span>
       </div>
     </v-card-text>
-       <v-card-actions class="actionContainer">
-        <v-btn color="#F8C9D3">
-          <span class="btnText">Adquira</span>
+          <v-card-actions class="actionContainer">
+        <v-btn class="btnStyle" color="#F8C9D3">
+         <span class="wholeText"><span class="btnText">A</span>dquira</span>
         </v-btn>
     </v-card-actions>
     </v-container>
@@ -118,50 +118,51 @@
     max-width="344"
     hover="5dp">
     <div class="header-block"></div>
-    <v-container >
-        <v-card-title class="cardTitle">Premium</v-card-title>
-    <v-card-title class="cardTitlePrice">Free</v-card-title>
-    <v-card-text>
+    <v-container class="mainContentCard" >
+        <v-card-title class="cardTitle">Medium</v-card-title>
+        
+    <v-card-title class="cardTitlePrice">R$ 50,00</v-card-title>
+    <v-card-text class="mainContentText">
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Até 3 pacientes;</span>
+        <span class="spaceText">Até 3 pacientes;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Tira dúvidas das suas gestantes via aplicativo;</span>
+        <span class="spaceText">Tira dúvidas das suas gestantes via aplicativo;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Adicionar dicas para suas pacientes;</span>
+        <span class="spaceText">Adicionar dicas para suas pacientes;</span>
       </div>
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>App gratuito para suas pacientes se comunicarem com você;</span>
+        <span class="spaceText">App gratuito para suas pacientes se comunicarem com você;</span>
       </div>
       <div class="cardItem">
         <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Marque consultas via app;</span>
+        <span class="spaceText">Marque consultas via app;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/success-icon.svg" />
-        <span>Suporte personalizado;</span>
+        <span class="spaceText">Suporte personalizado;</span>
       </div>
       <div class="cardItem">
         <img alt="success-item" src="../assets/unsuccess-icon.svg" />
-        <span>Gerenciamento de risco;</span>
+        <span class="spaceText">Gerenciamento de risco;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/unsuccess-icon.svg" />
-        <span>Cadastro de artigos para suas pacientes;</span>
+        <span class="spaceText">Cadastro de artigos para suas pacientes;</span>
       </div>
       <div class="cardItem">
          <img alt="success-item" src="../assets/unsuccess-icon.svg" />
-        <span>Cadastro de exames para suas pacientes;</span>
+        <span class="spaceText">Cadastro de exames para suas pacientes;</span>
       </div>
     </v-card-text>
          <v-card-actions class="actionContainer">
-        <v-btn color="#F8C9D3">
-          <span class="btnText">Adquira</span>
+        <v-btn class="btnStyle" color="#F8C9D3">
+         <span class="wholeText"><span class="btnText">A</span>dquira</span>
         </v-btn>
     </v-card-actions>
     </v-container>
@@ -189,10 +190,13 @@ export default {
  .cardTitle{
    font-weight: bold;
    font-size: 1.5rem;
+   align-self: center;
  }
  .cardTitlePrice{
    font-size: 2rem;
    font-weight: 300;
+    align-self: center;
+
  }
  .header-block{
    width: 100%;
@@ -209,6 +213,7 @@ export default {
  }
 .btnText{
   text-transform: uppercase;
+  padding: 1%;
 }
 .actionContainer{
   display: flex;
@@ -222,5 +227,19 @@ export default {
   text-transform: lowercase;
   color: white;
   letter-spacing: 0;
+}
+.mainContentCard{
+  display: flex;
+  flex-direction: column;
+}
+.cartItem{
+  align-self: center;
+}
+.wholeText{
+  color: white;
+}
+.spaceText{
+  margin-left: 5%;
+  font-size: 0.8rem;
 }
  </style>

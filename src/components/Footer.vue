@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
  .customContainer{
-     height: 100vh;
+     height: 50vh;
      width: 100vw;
      background-color: black;
  }
