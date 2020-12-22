@@ -49,6 +49,7 @@ export default {
   font-size: 3rem;
   text-align: center;
   font-weight: 300;
+  font-family: 'Rochester';
 }
 .paragraphStyle{
   text-align: justify;
